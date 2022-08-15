@@ -1,0 +1,129 @@
+/* ==== A SIMPLE CSS RESET FROM ERIC MEYER ==== */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* end of CSS reset */
+
+body {
+    background-image: url('https://i.imgur.com/tge203e.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.wrapper {
+    width: 1600px;
+    height: 800px;
+    background-color: none;
+    margin: 0 auto;
+    padding: 70px; 
+  }
+  .web-services, .marketing {
+    background-color: hsla(216, 100%, 90%, .4);
+    height: 800px;
+    width: 294px;
+  }
+  .first-heading, .second-heading {
+    background-color: hsla(216, 100%, 90%, .4);
+    height: 800px;
+    width: 100px;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    font-family: Raleway;
+   font-weight: bold;
+   color: hsl(240, 100%, 95%);
+  }
+  .profile-card {
+    background-color: hsla(216, 100%, 90%, .4);
+    height: 800px;
+    width: 788px;
+  }
+  .right {
+    float: right;
+  }
+  .first-heading {
+   font-size: 75px;
+  }
+  #profile-img {
+     width: 200px;
+      border-radius: 50%;
+      margin-top: -60px;
+      margin-left: 250px;
+  }
+  .second-heading {
+    font-size: 75px;
+  }
+  .bubble {
+    width: 170px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: hsl(240, 100%, 80%);
+    padding:20px;
+    margin-left: 70px;
+    margin-top: 40px;
+  }
+
+.bubble-content {
+    padding: 50px;
+    text-align: center;
+    font-family: DynaPuff;
+    font-size: 20px;
+    line-height: 1.2em;
+}
+.vl {
+    border-left: 6px solid hsl(240, 100%, 95%);
+    height: 800px;
+  }
+.description {
+  height: 400px;
+  width: 400px;
+  background-color:hsla(0, 0%, 20%, .4); 
+  
+  justify-content: center;
+  align-items: center;
+}
