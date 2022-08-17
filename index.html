@@ -2,9 +2,10 @@
 <head>
     <title>carte de vizita</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;500;600;700&family=Josefin+Sans:ital,wght@0,300;0,400;1,300;1,500&family=Open+Sans:ital,wght@0,700;1,400&family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,46 +13,63 @@
 <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;500;600;700&family=Josefin+Sans:ital,wght@0,300;0,400;1,300;1,500&family=Open+Sans:ital,wght@0,700;1,400&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300&display=swap" rel="stylesheet">
 </head>
 <body>
+  <div class="bg-img"></div>
   <div class="wrapper">
     <div class="web-services right">
       <div class="bubble">
-           <p class="bubble-content">hosting</p>
-         </div>
-         <div class="bubble">
-           <p class="bubble-content">encryption</p>
-         </div>
-         <div class="bubble">
-           <p class="bubble-content">web design</p>
-         </div>
+        <p class="bubble-content">hosting</p>
+      </div>
+      <div class="bubble">
+        <p class="bubble-content">encryption</p>
+      </div>
+      <div class="bubble">
+        <p class="bubble-content">web design</p>
+      </div>
     </div>
     <div class="vl right"></div>
     <div class="first-heading right"> 
       <p>DEVELOPER</p>
     </div>
     <div class="vl right"></div>
-    <div class="profile-card right">
-      <img id="profile-img" src="https://i.imgur.com/AoU2r9X.jpg" alt="Elena Chifan">
-      <h1>Elena Chifan</h1>
-      <h3>Web developer and Marketing</h3>
-      <div class="description">
-        <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure molestiae accusantium doloribus in eligendi neque, corrupti reprehenderit distinctio qui, itaque odio ad deserunt illo dolorem dignissimos alias nostrum, voluptatibus quod!</p>
+    <!-- middle part configuration flexbox-->
+    <div class="main right">
+      <div class="divider">
+        <img id="profile-img" src="https://i.imgur.com/AoU2r9X.jpg" alt="Elena Chifan">
       </div>
+      <div class="profile-card right">
+        <div class="about">
+          <h1>Elena Chifan</h1>
+          <h3>Web developer and Marketing</h3>
+        </div>
+        <div class="description">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure molestiae accusantium doloribus in eligendi neque, corrupti reprehenderit distinctio qui, itaque odio ad deserunt illo dolorem dignissimos alias nostrum, voluptatibus quod!</p>
+        </div>
+        <br>
+        <div class="pictogram">
+          <br>
+          <h2>Contact me via:</h2>
+          <br>
+            <a href="https://www.facebook.com/lena.anfimov/" title="facebook" class="social-icon" target="_blank"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com/lenachifan2022/" title="instagram" class="social-icon" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/in/elena-chifan-141b30232/" title="linkedIn" class="social-icon" target="_blank"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+        </div>
+      </div>
+  </div>
+  <div class="vl right"></div>
+  <div class="second-heading right">
+    <p>MARKETING</p>
+  </div>
+  <div class="vl right"></div>
+  <div class="marketing right">
+    <div class="bubble">
+      <p class ="bubble-content">social media</p>
     </div>
-    <div class="vl right"></div>
-    <div class="second-heading right">
-      <p>MARKETING</p>
+    <div class="bubble">
+      <p class ="bubble-content">content & copywrite</p>
     </div>
-    <div class="vl right"></div>
-    <div class="marketing right">
-      <div class="bubble">
-        <p class ="bubble-content">social media presence</p>
-      </div>
-      <div class="bubble">
-        <p class ="bubble-content">content & copywrite</p>
-      </div>
-      <div class="bubble">
-        <p class="bubble-content">S.E.O. <br>& data tracking</p>
-      </div> 
-     </div>
-   </div>
+    <div class="bubble">
+      <p class="bubble-content">S.E.O. <br>& data tracking</p>
+    </div> 
+    </div>
+  </div>
 </body>
