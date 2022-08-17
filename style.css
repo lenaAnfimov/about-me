@@ -55,6 +55,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    backdrop-filter: blur(8px);
+    background-position: fixed;
 }
 .wrapper {
     width: 1600px;
@@ -77,11 +79,70 @@ body {
     font-family: Raleway;
    font-weight: bold;
    color: hsl(240, 100%, 95%);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
   }
   .profile-card {
     background-color: hsla(216, 100%, 90%, .4);
-    height: 800px;
+    height: 700px;
     width: 788px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  }
+  .divider {
+    background-color: hsla(216, 100%, 90%, .4);
+    height: 100px;
+    width: 788px;
+  }
+  .about {
+    height: 70px;
+    width: 350px;
+    border-radius: 5%;
+    justify-content: center;
+    text-align: center;
+    line-height: 1.8em;
+    font-family: Raleway;
+    font-weight: 500;
+    background-color:none;
+    font-family: DynaPuff;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1.8em;
+    color: hsla(240, 100%, 65%, 0.7);
+  }
+  .description {
+    height: 400px;
+    width: 400px;
+    background-color:hsla(285, 100%, 85%, .4); 
+    border-radius: 5%;
+    justify-content: center;
+    text-align: center;
+    font-family: DynaPuff;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.8em;
+    color: hsla(240, 100%, 65%, 0.7);
+    padding: 15px;
+    box-shadow: 5px 10px 15px hsla(240, 100%, 65%, .4);
+  }
+  .pictogram {
+    width: 300px;
+    height: 120px;
+    background-color: hsla(285, 100%, 85%, .4);
+    border-radius: 5%;
+    text-align: center;
+    font-family: DynaPuff;
+    font-weight: bold;
+    font-size: 20px;
+    color: lavenderblush;
+    box-shadow: 5px 10px 15px hsla(240, 100%, 65%, .4);
+  }
+  .social-icon {
+    padding: 10px;
+    color: lavenderblush;
   }
   .right {
     float: right;
@@ -93,7 +154,15 @@ body {
      width: 200px;
       border-radius: 50%;
       margin-top: -60px;
-      margin-left: 250px;
+      margin-left: 290px;
+      padding: 1px;
+      background-color: #666;
+      filter: grayscale(50%);
+  }
+  #profile-img:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+    filter: grayscale(20%);
   }
   .second-heading {
     font-size: 75px;
@@ -101,29 +170,30 @@ body {
   .bubble {
     width: 170px;
     height: 150px;
-    border-radius: 50%;
+    border-radius: 20%;
     background-color: hsl(240, 100%, 80%);
     padding:20px;
-    margin-left: 70px;
+    margin-left: 40px;
     margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: 0.5rem solid;
+    border-color: hsl(240, 100%, 95%);
+    box-shadow: 5px 10px 15px hsla(240, 100%, 65%, .4);
   }
-
+  .bubble:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+  }
 .bubble-content {
     padding: 50px;
-    text-align: center;
     font-family: DynaPuff;
     font-size: 20px;
     line-height: 1.2em;
+    color: hsl(240, 100%, 95%);
 }
 .vl {
     border-left: 6px solid hsl(240, 100%, 95%);
     height: 800px;
   }
-.description {
-  height: 400px;
-  width: 400px;
-  background-color:hsla(0, 0%, 20%, .4); 
-  
-  justify-content: center;
-  align-items: center;
-}
